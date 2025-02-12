@@ -2,7 +2,7 @@
 
 ## **Project Overview**
 
-The ** Zaman (The Hijri Calendar & Time of Prayers Web App)** is a comprehensive application designed to help Muslims keep track of prayer times, and the Hijri calendar, and receive reminders for daily prayers. The app offers the following features:
+The **Zaman (The Hijri Calendar & Time of Prayers Web App)** is a comprehensive application designed to help Muslims keep track of prayer times, and the Hijri calendar, and receive reminders for daily prayers. The app offers the following features:
 
 - **Prayer Times:** Display accurate prayer times based on the user's location.
 - **Location-based Prayer Times:** Prayer times are automatically adjusted based on the user's geographic location (latitude and longitude).
