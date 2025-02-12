@@ -1,4 +1,4 @@
-# **Hijri Calendar & Time of Prayers Web App**
+# **Zaman (Hijri Calendar & Time of Prayers Web App)**
 
 ## **Project Overview**
 
@@ -111,18 +111,6 @@ The following are the key API endpoints available:
 
 - **POST /api/v1/notifications/send**  
   Trigger prayer notifications manually (for testing purposes).
-
-## **Contributing**
-
-We welcome contributions to this project! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes and commit (`git commit -am 'Add feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Submit a pull request.
-
-
 
 ## **Acknowledgements**
 
