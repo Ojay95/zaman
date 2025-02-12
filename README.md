@@ -14,7 +14,7 @@ The **Hijri Calendar & Time of Prayers Web App** is a comprehensive application 
 ## **Tech Stack**
 
 - **Backend:** Java (Spring Boot)
-- **Database:** PostgreSQL
+- **Database:** MySQL
 - **Notification Service:** Firebase Cloud Messaging (FCM)
 - **External APIs:** Aladhan API (for prayer times), Islamic quote APIs (for Hadiths)
 - **Version Control:** Git/GitHub
@@ -40,55 +40,6 @@ The backend of the app follows a **microservices architecture** and is composed 
 4. **Models:** Define the structure of the database entities like `User`, `PrayerTime`, `Quote`, and `UserNotificationSettings`.
 5. **Configuration:** Setup Firebase for push notifications and configure external APIs.
 6. **Scheduled Jobs:** Handle automated tasks like sending notifications based on prayer times.
-
-## **Installation**
-
-### **1. Clone the Repository**
-
-Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/Ojay95/zaman.git
-cd hijri-prayer-app
-```
-
-### **2. Set Up the Database**
-
-- Make sure you have PostgreSQL installed and running locally or use a hosted PostgreSQL service.
-- Create a new database called `hijri_prayer_app` in PostgreSQL.
-
-### **3. Configure `application.properties`**
-
-Edit the `src/main/resources/application.properties` file and update the following settings:
-
-```properties
-# Database configuration
-spring.datasource.url=jdbc:postgresql://localhost:5432/hijri_prayer_app
-spring.datasource.username=your_db_username
-spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update
-
-# Firebase configuration
-firebase.api.key=your_firebase_api_key
-```
-
-### **4. Build the Project**
-
-Use Maven to build the project:
-
-```bash
-mvn clean install
-```
-
-### **5. Run the Application**
-
-Run the Spring Boot application:
-
-```bash
-mvn spring-boot:run
-```
-
-The backend server will start running on `http://localhost:8080`.
 
 ## **API Endpoints**
 
@@ -119,5 +70,3 @@ The following are the key API endpoints available:
 - **MySQL** for the database.
 
 ---
-
-This README provides a detailed overview of how to set up and use the **Hijri Calendar & Time of Prayers Web App**. Let me know if you'd like to add more details or adjust anything!
